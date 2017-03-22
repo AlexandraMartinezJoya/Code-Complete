@@ -1,0 +1,16 @@
+/*C++ Example of of a Class Interface That Presents a Good Abstraction */
+
+class Employee { 
+public: 
+//public constructors and destructors
+    Employee();
+    Employee (
+      FullName name,
+      String address,
+      String workPhone, 
+      String homePhone,
+      TaxId taxIdNumber,
+      JobClassification jobClass
+    );
+    virtual ~Employee();
+}
