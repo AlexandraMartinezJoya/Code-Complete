@@ -1,0 +1,14 @@
+class EmployeeCensus: public ListContainter {
+public: 
+//...
+//public routines:
+void AddEmployee (Employee employee);
+void RemoveEmployee(Employee employee);
+
+Employee NextItemInList();
+Employee FirstItem();
+Employee LastItem();
+//...
+private:
+//...
+};
