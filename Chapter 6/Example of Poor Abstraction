@@ -1,0 +1,16 @@
+class Program {
+  public: 
+  // ...
+  void InitializeCommandStack();
+  void PushCommand();
+  Command PopCommand();
+  void ShutdownCommandStack();
+  void InitializeReportFormatting();
+  void FormatReport( Report report );
+  void PrintReport( Report report );
+  void InitializeGlobalData();
+  void ShutdownGlobalData();
+  //...
+  private:
+  //...
+};
