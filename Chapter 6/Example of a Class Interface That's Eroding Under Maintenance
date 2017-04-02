@@ -1,0 +1,17 @@
+Class Employee {
+public: 
+//...
+//public routines: 
+FullName GetName() const;
+Address GetAddress() const;
+PhoneNumber GetWorkPhone() const;
+//...
+bool IsJobClassificationValid( JobClassification jobClass );
+bool IsZipCodeValid( Address address );
+bool IsPhoneNumberValid( PhoneNumber phoneNumber );
+SqlQuery GetQueryToCreateNewEmployee() const;
+SqlQuery GetQueryToModifyEmployee() const;
+SqlQuery GetQueryToRetrieveEmployee() const;
+//...
+private:
+};
