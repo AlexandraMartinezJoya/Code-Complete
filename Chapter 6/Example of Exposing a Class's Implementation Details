@@ -1,0 +1,21 @@
+class Employee {
+public: 
+     //...
+     Employee (
+          FullName name,
+          String address, 
+          String workPhone,
+          String homePhone,
+          TaxId taxIdNumber,
+          JobClassification jobClass
+     );
+     //...
+     FullName GetName() const;
+     String GetAddress() const;
+     //...
+     private: 
+     String m_Name;
+     String m_Address;
+     int m_jobClass;
+     //...
+};     
