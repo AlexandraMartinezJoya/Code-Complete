@@ -1,0 +1,11 @@
+class Employee {
+public: 
+    // ...
+     Employee(...);
+     //...
+     FullName GetName() const;
+     String GetAddress() const;
+     //...
+private: 
+     EmployeeImplementaton *m_implementation;
+};
