@@ -1,0 +1,15 @@
+switch (ui.Command() ) {
+     case Command_OpenFile: 
+          OpenFile();
+          break;
+     case Command_Print:
+          Print();
+          break;
+     case Command_Save: 
+          Save();
+          break;
+     case Command_Exit:
+          ShutDown();
+          break;
+     //...
+}
