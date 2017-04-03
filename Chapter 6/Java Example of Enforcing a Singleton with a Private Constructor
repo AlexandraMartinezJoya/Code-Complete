@@ -1,0 +1,13 @@
+public class MaxId {
+     //constructors and destructors
+     private MaxId() {
+     ...
+     }
+     ...
+     // public routines
+     public static MaxId GetInstance() {
+         retur m_instance; 
+     }
+     // private members 
+     private static final MaxId m_instance = new MaxId(); 
+}
