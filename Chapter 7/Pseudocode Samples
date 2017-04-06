@@ -1,0 +1,21 @@
+Pseudocode Example of a Calculation
+points = deviceUnits * ( POINTS_PER_INCH / DeviceUnitsPerInch() )
+===================================
+Pseudocode Example of a Calculation Converted to a Function
+Function DeviceUnitsToPoints ( deviceUnits Integer ): Integer
+DeviceUnitsToPoints = deviceUnits *
+( POINTS_PER_INCH / DeviceUnitsPerInch() )
+End Function
+===================================
+Pseudocode Example of a Function Call to a Calculation Function
+points = DeviceUnitsToPoints( deviceUnits )
+===================================
+Pseudocode Example of a Calculation That Expands Under Maintenance
+Function DeviceUnitsToPoints( deviceUnits: Integer ) Integer;
+if ( DeviceUnitsPerInch() <> 0 )
+DeviceUnitsToPoints = deviceUnits *
+( POINTS_PER_INCH / DeviceUnitsPerInch() )
+else
+DeviceUnitsToPoints = 0
+end if
+End Function
