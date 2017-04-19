@@ -1,0 +1,14 @@
+procedure InvertMatrix(
+  originalMatrix: in Matrix;
+  resultMatrix: out Matrix;
+);
+
+procedure ChangeSentanceCase (
+  desiredCase: in StringCase;
+  sentence: in out Sentence;
+);
+
+procedure PrintPageNumber(
+  pageNumber: in Integer;
+  status: out StatusType
+);
