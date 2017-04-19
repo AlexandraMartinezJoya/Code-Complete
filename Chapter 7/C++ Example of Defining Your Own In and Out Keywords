@@ -1,0 +1,18 @@
+#define IN
+#define OUT
+
+void InvertMatrix (
+  In Matrix originalMatrix;
+  OUT Matrix *resultMatrix;
+);
+//...
+
+void ChangeSentanceCase (
+  IN StringCase desiredCase,
+  IN OUT Sentance *SentenceToEdit
+);
+
+void PrintPageNumber(
+  IN int PageNumber,
+  OUT StatusType &Status
+);
