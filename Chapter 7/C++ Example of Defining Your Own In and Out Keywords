@@ -16,3 +16,4 @@ void PrintPageNumber(
   IN int PageNumber,
   OUT StatusType &Status
 );
+
