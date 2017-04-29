@@ -1,0 +1,17 @@
+//Java Example of Improper Use of Input Parameters
+
+int Sample(int inputVal)
+     inputVal= inputval * currentMultiplier(inputval);
+     inputVal= inputVal + CurrentAdder (inputVal);
+      //...
+     return inputVal;
+} 
+
+//Java Example of Good Us of Input Parameters
+int sample (int inputVal) {
+     int workingVal= inputVal;
+     workingVal = workingVal * CurrentMultiplier(workingval);
+     workingVal = workingVal + CurrentAdder(workingVal);
+     //...
+     return workingVal;
+}
