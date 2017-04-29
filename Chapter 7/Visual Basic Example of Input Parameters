@@ -1,0 +1,16 @@
+//Visual Basic Example of Explicitly Identifying Parameters
+
+Private Function Distance3d (
+    _ByVal xDistance As Coordinate, _ByVal yDistance As Coordinate, _ByVal zDistance As Coordinate _)
+     //... 
+)
+End Function
+//...
+
+Private Function Velocity (_ByVal latitude as Coordinate, _ByVal longitude as Coordinate, _ByVal elevation as Coordinate)
+
+
+Distance = Distance3d( xDistance := latitude, yDistance := longitude, zDistance := elevation)
+
+...
+End Function 
