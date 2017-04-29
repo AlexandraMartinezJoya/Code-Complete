@@ -1,0 +1,8 @@
+C++ Example of a Macro That Doesn't Expand Properly
+#define Cube(a) a*a*a
+
+C++ Example of a Macro That Still Doesn't Expand Properly
+#define Cube (a) (a)*(a)*(a)
+
+C++ Example of a Macro that does Expand Properly
+#define Cube (a) ((a)*(a)*(a))
