@@ -1,0 +1,7 @@
+try {
+  //...
+  // lots of code
+  //... 
+} catch (AnException exception) {
+  LogError("Unexpected exception");
+}
