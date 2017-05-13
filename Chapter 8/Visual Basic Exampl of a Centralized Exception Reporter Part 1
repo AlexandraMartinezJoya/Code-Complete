@@ -1,0 +1,13 @@
+Sub ReportException (_
+  ByVal clasName, _ 
+  ByVal thisException as Exception _
+)
+
+  Dim message As String
+  Dim caption As String
+
+message = "Exception: " & thisException.Message & "." & ControlChars.Crlf & _ "Class: " & className & CotrolChars.Crlf & _ "Routine: " & thisException.TargetSite.Name & ControlChars.Crlf caption = "Exception"
+
+MessageBox.Show(message, caption, MessageBoxButtons.OK, _MessageBoxIcon.Excalamtion)
+
+End Sub
