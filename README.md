@@ -5,4 +5,4 @@ In Chapter 6, The Topic Abstract Data Types and Interfaces are explained and we 
 
 In Chapter 7, Routines are Explained in great detail, and as the cherry on the top, we have the first Ada example.  
 
-In Chapter 8, The concept of Defensive Programming is explained in great detail. Some code samples are given.
+In Chapter 8, The concept of Defensive Programming is explained in great detail. Some code samples are given for each subchapter, and we have the first Visual Basic example.
