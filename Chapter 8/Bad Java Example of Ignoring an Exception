@@ -1,0 +1,6 @@
+try {
+  ...
+  // lots of code
+  ... 
+} catch (AnException exception) {
+}
