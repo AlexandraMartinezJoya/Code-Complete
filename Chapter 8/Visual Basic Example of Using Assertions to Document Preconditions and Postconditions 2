@@ -1,0 +1,26 @@
+Private Function Velocity ( _
+ ByRef latitude As Single, _
+ ByRef longitude As Single, _
+ ByRef elevation As Single _ 
+) As Single
+
+' Preconditions 
+Debug.Assert ( -90 <= latitude And latitude <= 90) 
+Debug.Assert ( 0 <= longitude And longitude < 360) 
+Debug.Assert ( -500 <= elevation And elevation <= 75000)
+'...
+
+'Sanitize input data. Values should be within the ranges asserted above, 
+'but if a value is not within its valid range, it will be changed to the 
+'closest legal value
+
+If (latitude < -90) Then
+  latitude = -90
+Elseif (latitude > 90) Then
+  latitude = 90
+End If
+
+If (longitude < 0) Then
+  longitude = 0
+ElseIf(longitude > 360) Then
+'... 
