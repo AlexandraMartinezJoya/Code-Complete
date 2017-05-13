@@ -1,0 +1,5 @@
+Try 
+  ...
+Catch exceptionObject As Exception 
+  ReportException (CLASS_NAME, exceptionObject)
+End Try
