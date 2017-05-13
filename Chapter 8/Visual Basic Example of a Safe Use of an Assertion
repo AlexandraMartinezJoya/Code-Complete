@@ -1,0 +1,2 @@
+actionPerformed = PerformAction()
+Debug.Assert ( actionPerformed ) ' Couldn't perform action
