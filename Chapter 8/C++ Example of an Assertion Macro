@@ -1,0 +1,6 @@
+#define ASSERT (condition, message) {
+  if( !(condition) ) {
+   LogError("Assertion failed: ", #condition, message);
+   exit (EXIT_FAILURE);   
+  }
+}
