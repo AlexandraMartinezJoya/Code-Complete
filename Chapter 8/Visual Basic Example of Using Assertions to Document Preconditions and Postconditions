@@ -1,0 +1,20 @@
+Private Function Velocity ( _
+  ByVal latitude As Single, _
+  ByVal longitude As Single, _
+  ByVal elevation As Single _
+) As Single
+
+' Preconditions
+
+Debug.Assert ( - 90 <= latitude And latitude <= 90)
+Debug.Assert (0  <= longitude And longitude < 360)
+Debug.Assert ( -500 <= elevation And elevation <= 75000)
+
+... 
+' Postcondition 
+Debug.Assert ( 0 <= returnVelocity And returnVelocity <= 600) 
+
+  ' return value
+  Velocity = returnVelocity
+
+End Function
