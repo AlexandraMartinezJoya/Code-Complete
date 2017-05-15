@@ -1,0 +1,9 @@
+void DoSomething(
+  SOME_TYPE *pointer;
+  ...
+) {
+
+//check parameters passed in
+CheckPointer(pointer);
+...
+}
