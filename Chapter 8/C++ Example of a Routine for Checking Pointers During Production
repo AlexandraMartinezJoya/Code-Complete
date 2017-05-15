@@ -1,0 +1,3 @@
+void CheckPointer ( void *pointer) {
+  // no code; just return to caller
+}
