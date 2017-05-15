@@ -1,0 +1,6 @@
+#define DEBUG
+...
+#if defined (DEBUG)
+// debugging code
+....
+#endif
