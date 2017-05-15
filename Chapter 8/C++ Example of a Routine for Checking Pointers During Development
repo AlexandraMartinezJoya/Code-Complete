@@ -1,0 +1,7 @@
+void CheckPointer (void *pointer) {
+  // perform check 1--maybe check that it's not NULL
+  // perform check 2 - maybe check that it's dogtag is legitimate
+  //perform check 3 -- maybe check that what it points to isn't corrupted
+  ...
+  // perform check n-- ...
+}
