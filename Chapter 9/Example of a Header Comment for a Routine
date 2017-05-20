@@ -1,0 +1,4 @@
+/* This routine outputs an error message based on an error code supplied by the calling routine. 
+ * The way it outputs the message depends on the current processing state, which it retrieves on its own. 
+ * It returns a value indicating success or failure. 
+ */
