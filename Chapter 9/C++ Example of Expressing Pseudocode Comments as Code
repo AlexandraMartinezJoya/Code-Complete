@@ -1,0 +1,20 @@
+/* This routine outputs an error message based on an error code supplied by the calling routine. The way it outputs the message depends on the current processing stat, which it retrieves on its own. It returns a value indicating success or failure. 
+*/
+
+Status ReportErrorMessage(
+    ErrorCode errorToReport
+    ) {
+    // set the default status to "fail"
+    Status errorMessageStatus = Status_Failure;
+
+    //look up the message based on the error code
+    Message errorMessage = LookupErrorMessage (errorToReport);
+
+    // if the error code is valid
+      // if doing interactive processing, display the error message interactively and declare success
+
+      // if doing command line processing, log the error message to the command line and declare success
+
+    //if the error code isn't valid, notify the user that an internal error has been detected
+ 
+//return status information
