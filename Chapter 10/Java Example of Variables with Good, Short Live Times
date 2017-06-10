@@ -1,0 +1,11 @@
+25  recordIndex = 0;
+26  while (recordIndex < recordCount) {
+27  ...
+28     recordIndex = recordIndex + 1;
+       ...
+62  total = 0;
+63  done = false;
+64  while (!done) {
+      ...
+69    if (total > projectedTotal) {
+      done = true;
