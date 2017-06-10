@@ -1,0 +1,12 @@
+void SummarizeData(...) {
+  ...
+  GetOldData(oldData, &numOldData);
+  GetNewData(newData, &numNewData);
+  totalOldData = Sum(oldData, numOldData);
+  totalNewData = Sum(newData, numNewData);
+  PrintOldDataSummary(oldData, totalOldData, numOldData);
+  PrintNewDataSummary(newData, totalNewData, numNewData);
+  SaveOldDataSummary(totalOldData, numOldData);
+  SaveNewDataSummary(totalNewData, numNewData);
+  ...
+}
