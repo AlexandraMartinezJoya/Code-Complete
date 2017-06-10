@@ -1,0 +1,3 @@
+int reciptIndex = 0;
+float dailyReceipts = TodaysReceipts();
+double totalReceipts = TotalReceipts(dailyReceipts);
