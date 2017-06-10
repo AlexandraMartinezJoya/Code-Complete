@@ -1,0 +1,17 @@
+declare all variables
+Dim accountIndex As Integer
+Dim total as Double
+Dim done as Boolean
+
+'initialize all variables
+accountIndex = 0
+total = 0.0
+done = False
+...
+'code using accountIndex
+...
+'code using total
+...
+'code using done
+while Not done
+...
