@@ -1,0 +1,12 @@
+int accountIndex = 0;
+//code using accountIndex
+...
+
+double total = 0.0
+//code using total
+
+boolean done = false;
+//code using done
+while (!done) {
+ ...
+}
