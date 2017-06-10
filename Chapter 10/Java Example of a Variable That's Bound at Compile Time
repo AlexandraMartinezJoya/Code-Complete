@@ -1,0 +1,4 @@
+private static final int COLOR_BLUE = 0xFF;
+private static final int TITLE_BAR_COLOR = COLOR_BLUE;
+//...
+titleBar.color = TITLE_BAR_COLOR;
