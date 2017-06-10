@@ -1,0 +1,15 @@
+1 //initialize all variables
+2 recordIndex = 0;
+3 total = 0;
+4 done = false;
+  ...
+26 while(recordIndex < recordCount) {
+27 ...
+   }
+28 recordIndex = recordIndex + 1;
+   ...
+64 while (!done) {
+     ...
+69   if (total > projectTotal) {
+     done = true;     
+}
