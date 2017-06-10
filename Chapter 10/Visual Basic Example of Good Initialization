@@ -1,0 +1,13 @@
+Dim accountIndex As Integer
+accountIndex = 0
+'code using accountIndex
+...
+Dim total as Double
+total = 0.0
+'code using total
+...
+Dim done as Boolean
+done = False
+'code using done
+while Not done
+...
