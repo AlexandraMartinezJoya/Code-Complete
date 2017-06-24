@@ -1,0 +1,9 @@
+final double ACCEPTABLE_DELTA = 0.00001;
+boolean Equals (double Term1, double Term2) {
+     if (Math.abs (Term1 - Terms2) < ACCEPTABLE_DELTA) {
+         return true; 
+     }
+     else {
+         return false; 
+     }
+}
