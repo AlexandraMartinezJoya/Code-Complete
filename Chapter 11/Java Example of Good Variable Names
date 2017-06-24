@@ -1,0 +1,4 @@
+balance = balance - lastPayment;
+monthlyTotal = newPurchases + SalesTax(newPurchases);
+balance = balance + LateFee(customerID, balance) + monthlyTotal;
+balance = balance + Interest(customerID, balance);
