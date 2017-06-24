@@ -1,0 +1,3 @@
+For i = 1 To 12
+     profit(i) = revenue (i ) - expense(i)
+Next
