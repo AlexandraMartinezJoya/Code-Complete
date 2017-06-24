@@ -1,0 +1,10 @@
+
+enum Color {
+     Color_InvalidFirst = 0,
+     Color_First = 1,
+     Color_Red = 1,
+     Color_Green = 2,
+     Color_Blue = 4,
+     Color_Black = 8,
+     Color_Last = 8
+};
