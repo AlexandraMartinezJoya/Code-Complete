@@ -1,0 +1,4 @@
+for (teamIndex = 0; teamIndex < teamCount; teamIndex++) {
+   for( eventIndex = 0; eventIndex < eventCount[teamIndex]; eventIndex++ {
+        score[teamIndex][eventIndex] = 0;
+   }
