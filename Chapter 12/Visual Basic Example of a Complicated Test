@@ -1,0 +1,4 @@
+if((document.AtEndOfStream() ) And (Not inputError)) And ( (MIN_LINES <= lineCount) And (lineCount <= MAX_LINES)) And (Not ErrorProcessing() ) Then
+     do something or other
+     ...
+End If
