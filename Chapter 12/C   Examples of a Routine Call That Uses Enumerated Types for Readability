@@ -1,0 +1,7 @@
+int result = RetrievePayrollData(
+  data, 
+  EmploymentStatus_CurrentEmployee,
+  PayrollType_Salaried,
+  SavingsPlan_NoDeduction,
+  Medicaloverage_InculeDependents
+);
