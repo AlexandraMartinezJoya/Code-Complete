@@ -1,0 +1,5 @@
+int termA = 1000000;
+int termB = 1000000;
+int product = termA * termB / 1000000;
+
+System.out.println( "( " + termA + " * " + termB + " ) / 1000000 = " + product);
