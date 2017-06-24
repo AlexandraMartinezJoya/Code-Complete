@@ -1,0 +1,3 @@
+previousOldEmployee = oldEmployee
+oldEmployee = newEmployee
+newEmployee = previousOldEmployee
