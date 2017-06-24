@@ -1,0 +1,3 @@
+for (i = firstItem; i < lastItem; i++) {
+  data[i] = 0;
+}
