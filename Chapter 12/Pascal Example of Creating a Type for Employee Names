@@ -1,0 +1,2 @@
+Type 
+     employeeName = array[1..30] of char;
