@@ -1,0 +1,6 @@
+name = inputName
+address = inputAddress
+phone = inputPhone
+title = inputTitle
+department = inputDepartment
+bonus = inputBonus
