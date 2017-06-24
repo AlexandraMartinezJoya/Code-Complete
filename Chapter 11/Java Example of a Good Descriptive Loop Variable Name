@@ -1,0 +1,8 @@
+recordCount = 0;
+while(moreScores()) {
+  score[recordCount] = GetNextScore();
+  recordCount++;
+}
+
+//lines using recordCount
+...
