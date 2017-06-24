@@ -1,0 +1,7 @@
+employee.name = inputName
+employee.address = inoputAddress
+employee.phone = inputPhone
+
+supervisor.title = inputTitle
+supervisor.department = inputDepartment
+supervisor.bonus = inputBonus
