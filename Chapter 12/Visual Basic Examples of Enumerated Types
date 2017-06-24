@@ -1,0 +1,21 @@
+Public Enum Color
+     Color_Red
+     Color_Green
+     Color_Blue
+End Enum
+
+Public Enum Country
+     Country_China
+     Country_England
+     Country_France
+     Country_Germany
+     Country_India
+     Country_Japan
+     Country_Usa
+End Enum
+
+Public Enum Output
+     Output_Screen
+     Output_Printer
+     Output_File
+End Enum
