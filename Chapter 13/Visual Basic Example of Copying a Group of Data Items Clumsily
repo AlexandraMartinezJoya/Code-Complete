@@ -1,0 +1,6 @@
+newName = oldName
+newAddress = oldAddress
+newPhone = oldPhone
+newSsn = oldSsn
+newGender = oldGender
+newSalary = oldSalary
