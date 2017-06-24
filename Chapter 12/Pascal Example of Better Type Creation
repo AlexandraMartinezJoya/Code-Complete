@@ -1,0 +1,5 @@
+Const 
+     NANME_LENGTH = 30;
+     ...
+Type 
+     employeeName = array[1...Name_LENGTH] of char;
