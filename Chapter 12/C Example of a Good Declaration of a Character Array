@@ -1,0 +1,1 @@
+char EventName[MAX_NAME_LENGTH + 1] = {0};
