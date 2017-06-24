@@ -1,0 +1,19 @@
+// set up Country enumerated type
+class Country {
+     private Country() {}
+     public static final Country China = new Country();
+     public static final Country England = new Country();
+     public static final Country France = new Country();
+     public static final Country Germany = new Country();
+     public static final Country India = new Country();
+     public static final Country Japan = new Country();
+     public static final Country Romania = new Country();
+}
+
+// set up Output enumerated type 
+class  Output{
+     private Output() {}
+     public static final Output Screen = new Output();
+     public static final Output Printer = new Output();
+     public static final Output File = new Output();
+}
