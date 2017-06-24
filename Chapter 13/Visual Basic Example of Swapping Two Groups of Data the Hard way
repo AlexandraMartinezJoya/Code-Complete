@@ -1,0 +1,21 @@
+'swap new and old employee data
+previousOldName = oldName
+previousOldAddress = oldAddress
+previousOldPhone = oldPhone
+previousOldSsn = oldSsn
+previousOldGender = oldGender
+previousOldSalary = oldSalary
+
+oldName = newName
+oldAddress = newAddress
+oldPhone = newPhone
+oldSsn = newSsn
+oldGender = newGender
+oldSalary = newSalary
+
+newName = previousOldName
+newAddress = previousOldAddress
+newPhone = previousOldPhone
+newSsn = previousOldSsn
+newGender = previousOldGender 
+newSalary = previousOldSalary
