@@ -1,0 +1,4 @@
+if((elementIndex < 0) || (MAX_ELEMENTS < elementIndex) || (elementIndex == lastElementIndex))
+{
+    ... 
+}
