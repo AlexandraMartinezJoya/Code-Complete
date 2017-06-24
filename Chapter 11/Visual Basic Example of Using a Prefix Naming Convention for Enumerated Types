@@ -1,0 +1,18 @@
+Public Enum Color
+  Color_Red
+  Color_Green
+  Color_Blue
+End Enum
+
+Public Enum Planet
+  Planet_Earth
+  Planet_Mars
+  Planet_Venus
+End Enum
+
+Public Enum Month
+  Month_January
+  Month_February
+  ...
+  Month_December
+End Enum 
