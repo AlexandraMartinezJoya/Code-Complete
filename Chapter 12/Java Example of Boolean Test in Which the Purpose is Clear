@@ -1,0 +1,5 @@
+finished = (( elementIndex < 0) || (MAX_ELEMENTS < elementIndex));
+repreatedEntry = (elementIndex == lastElementIndex);
+if (finished || repeatedEntry) {
+    ...
+}
