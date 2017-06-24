@@ -1,0 +1,11 @@
+Structure Employee
+     name As String
+     address As String
+     phone As String
+     ssn As String
+     gender As String
+     salary As long
+End Structure
+Dim newEmployee As Employee
+Dim oldEmployee As Employee
+Dim previousOldEmploee as Employee
