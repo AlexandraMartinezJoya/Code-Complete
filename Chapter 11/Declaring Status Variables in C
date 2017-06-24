@@ -1,0 +1,18 @@
+
+// values for CharacterType
+const int LETTER = 0x01;
+const int DIGIT = 0x02;
+const int PUNCTUATION = 0x04;
+const int LINE_DRAW = 0x08;
+const int PRINTABLE_CHAR  = (LETTER | DIGIT | PUNCTUATION | LINE_DRAW);
+
+const int CONTROL_CHARACTER = 0x80;
+
+//values for ReportType
+enum ReportType {
+  ReportType_Daily,
+  ReportType_Monthly,
+  ReportType_Quaterly,
+  ReportType_Annual,
+  ReportType_All
+};
