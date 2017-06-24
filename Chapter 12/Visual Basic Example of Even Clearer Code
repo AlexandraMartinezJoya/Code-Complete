@@ -1,0 +1,3 @@
+For month = 1 to NUM_MONTHS_IN_YEAR
+     profit(month) = revenue(month) - expense(month)
+Next
