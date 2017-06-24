@@ -1,0 +1,6 @@
+     'compute currency conversions from US currency to target currency
+Dim usaCurrencyConversionRate(Country_Last) As Single
+Dim iCountry as Country
+For iCountry = Country_First To Country_Last
+     usaCurrencyConversionRate (iCountry) = ConversionRate (Country_Usa, iCountry)
+Next 
