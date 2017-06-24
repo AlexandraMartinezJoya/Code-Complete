@@ -1,0 +1,14 @@
+Const AREA_CODE_LENGTH = 3
+Const LOCAL_NUMBER_LENGTH = 7
+...
+Type PHONE_NUMBER
+     areaCode (AREA_CODE_LENGTH) As String
+     localNumber (LOCAL_NUMBER_LENGTH) As String
+End Type
+....
+'make sure all characters in phone number are digits
+For iDigit = 1 To LOCAL_NUMBER_LENGTH
+     if(phoneNumber.localNumber(iDigit) < "0") Or ("9" < phoneNumber.localNumber(iDigit))
+          Then 
+          'do some error processing
+          ...
