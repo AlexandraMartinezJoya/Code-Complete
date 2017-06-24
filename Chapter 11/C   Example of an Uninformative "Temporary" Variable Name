@@ -1,0 +1,5 @@
+// Compute solutions of a quadratic equation
+// This assumes that (b^2-4*a*c) is positive
+temp = sqrt(b ^ 2 - 4*a*c);
+solution[0] = (-b + temp) / (2 * a);
+solution[1] = (-b - temp) / (2 * a);
