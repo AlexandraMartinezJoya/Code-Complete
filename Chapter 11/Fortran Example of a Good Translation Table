@@ -1,0 +1,13 @@
+C*************************************************************************
+C      Translation Table
+C
+C    Variable       Meaning
+C  ----------      ---------
+C    XPOS          X-Coordinate Position (in meters)
+C    YPOS          Y-Coordinate Position (in meters)
+C    NDSCMP        Needs Computing (=0 if no computation is needed; )
+C                                   =1 if computation is needed)
+C    PTGTTL        Point Grand Total
+C    PTVXMX        Point Value Maximum  
+C    PSCRMX        Possible Score Maximum
+C ************************************************************************
