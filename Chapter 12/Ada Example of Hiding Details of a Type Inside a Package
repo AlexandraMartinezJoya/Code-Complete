@@ -1,0 +1,3 @@
+package Transformation is
+     type Coordinate is private;
+     ...
