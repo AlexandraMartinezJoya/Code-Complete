@@ -1,0 +1,15 @@
+
+Routine1(...) {
+     Coordinate latitude;           // latitude in degrees
+     Coordinate longitude;          // longitude in degrees
+     Coordinate elevation;          // elevation in meters from earth center
+     ...
+}     
+...
+
+Routine2(...) {
+     Coordinate x;    // x coordinate in meters 
+     Coordinate y;    // y coordinate in meters
+     Coordinate z;    // z coordinate in meters
+     ...
+}
