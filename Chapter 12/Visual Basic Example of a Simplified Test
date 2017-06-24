@@ -1,0 +1,6 @@
+allDataRead = (document.AtEndOfStream() ) And (Not inputError)
+legalLineCount = (MIN_LINES <= lineCount ) And (lineCount <= MAX_LINES)
+if (allDataRead) And (legalLineCount) And (Not ErrorProcessing() ) Then 
+    do something or other
+    ...
+End If
