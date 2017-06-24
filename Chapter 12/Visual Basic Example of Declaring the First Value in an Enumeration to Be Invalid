@@ -1,0 +1,13 @@
+Public Enum Country
+     Country_InvalidFirst = 0
+     Country_First = 1
+     Country_China = 1
+     Country_England = 2
+     Country_France = 3
+     Country_Germany = 4
+     Country_Romania = 5
+     Country_Japan = 6
+     Country_India = 7
+     Country_Usa = 8
+     Country_Last = 8
+End Enum
