@@ -1,0 +1,15 @@
+/*Declare the string to have length of "constant + 1". Every other place in the program, "constant" rather than "constant + 1" is used */
+
+char name[NAME_LENGTH + 1] = { 0 }; /* string of length NAME_LENGTH */ 
+
+...
+
+/* Example 1: Set the string to all 'A's using the constant, NAME_LENGTH, as the number of 'A's that can be copied. 
+   Note that NAME_LENGTH rather than NAME_LENGTH + 1 is used . */
+
+for (i = 0; i < NAME_LENGTH; i++) 
+     name[i] = 'A';
+...
+
+/* Example 2: Copy another string into the first string using the constant as the maximum length that can be copied. */
+strcpy (name, some_other_name, NAME_LENGTH);
