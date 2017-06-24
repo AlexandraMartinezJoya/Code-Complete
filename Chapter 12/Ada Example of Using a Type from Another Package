@@ -1,0 +1,9 @@
+with Transformation;
+...
+procedure Routine1 (...) ...
+     latitude: Coordinate;
+     longitude: Coordinate;
+begin
+     -- statement using latitude and longitude
+     ...
+end Routine1;
