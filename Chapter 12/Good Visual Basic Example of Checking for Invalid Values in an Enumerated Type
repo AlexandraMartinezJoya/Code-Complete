@@ -1,0 +1,10 @@
+Select Case screenColor
+     Case Color_Red
+          ...
+     Case Color_Blue
+          ...
+     Case Color_Green
+          ...
+     Case Else
+          DisplayInternalError(False, "Internal Errror 752: Invalid color.")
+ End Select
