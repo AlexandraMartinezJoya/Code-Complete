@@ -191,4 +191,36 @@ Key Points
 
 
 # Chapter 14- Organizing Straight Line Code
-Chapter 14  ---In progress ---
+Chapter 14 
+
+Key Points
+
+	* The strongest principle for organizing straight-line code is ordering dependencies.
+	* Dependencies should be made obvious through the use of good routine names, parameter lists, comments, and - if the code is critical enough - housekeeping variables
+	* If code doesn't have order dependencies, keep related statements as close together as possible
+
+
+
+# Chapter 15- Using Conditionals
+
+Key Points 
+
+	* For simple if-else statements, pay attention to the order of the if and else clauses, especially if they process a lot of errors. Make sure the nominal case is clear
+	* For if-then-else chains and case statements, choose an order that maximizes readability
+	* To trap errors, use the default clause in a case statement or the last else in a chain of if-then-else statement
+	* All control constructs are not created equal. Choose the control construct that's most appropriate for each section of code.
+
+
+
+# Chapter 16- Controlling Loops
+
+Key Points
+
+	* Loops are complicated. Keeping them simple helps readers of your code
+	* Technique for keeping loops simple include avoiding exotic kinds of loops, minimizing nesting, making entries and exits clear, and keeping housekeeping code in one place
+	* Loop indexes are subjected to a great deal of abuse. Name them clearly, and use them for only one purpose.
+	* Think through the loop carefully to verify that it operates normally under each case and terminates under all possible conditions.
+
+
+
+# Chapter 17 - Unusual Control Structures
