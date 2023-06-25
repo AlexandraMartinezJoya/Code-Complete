@@ -224,3 +224,233 @@ Key Points
 
 
 # Chapter 17 - Unusual Control Structures
+
+Key Points 
+
+	* Multiple returns can enhance a routine’s readability and maintainability, and they help prevent deeply nested logic. They should, nevertheless, be used carefully.
+ 	* Recursion provides elegant solutions to a small set of problems. Use it carefully, too.
+  	* In a few cases, gotos are the best way to write code that’s readable and maintainable. Such cases are rare. Use gotos only as a last resort.
+
+# Chapter 18 - Table-Driven Methods
+
+Key Points
+
+	* Tables provide an alternative to complicated logic and inheritance structures. If you find that you’re confused by a program’s logic or inheritance tree, ask yourself whether
+ 	you could simplify by using a lookup table.
+  	* One key consideration in using a table is deciding how to access the table. You can access tables by using direct access, indexed access, or stair-step access.
+   	* Another key consideration in using a table is deciding what exactly to put into the table.
+
+# Chapter 19 - General Control Issues
+
+Key Points
+
+	* Making boolean expressions simple and readable contributes substantially to the quality of your code.
+ 	* Deep nesting makes a routine hard to understand. Fortunately, you can avoid it relatively easily.
+  	* Structured programming is a simple idea that is still relevant: you can build any program out of a combination of sequences, selections, and iterations.
+   	* Minimizing complexity is a key to writing high-quality code.
+
+# Chapter 20 - The Software-Quality Landscape
+
+ Key Points 
+
+  	* Quality is free, in the end, but it requires a reallocation of resources so that defects are prevented cheaply instead of fixed expensively.
+   	* Not all quality-assurance goals are simultaneously achievable. Explicitly decide which goals you want to achieve, and communicate the goals to other people on your team.
+    	* No single defect-detection technique is completely effective by itself. Testing by itself is not optimally effective at removing errors. Successful quality-assurance
+	programs use several different techniques to detect different kinds of errors.
+ 	* You can apply effective techniques during construction and many equally powerful techniques before construction. The earlier you find a defect, the less intertwined it will become 
+  	with the rest of your code and the less damage it will cause.
+   	* Quality assurance in the software arena is process-oriented. Software development doesn’t have a repetitive phase that affects the final product like manufacturing does, so the quality of the result
+    	is controlled by the process used to develop the software.
+
+# Chapter 21 - Collaborative Construction
+
+Key Points
+
+	* Collaborative development practices tend to find a higher percentage of defects than testing and to find them more efficiently.
+ 	* Collaborative development practices tend to find different kinds of errors than testing does, implying that you need to use both reviews and testing to ensure the quality of your software.
+  	* Formal inspections use checklists, preparation, well-defined roles, and continual process improvement to maximize error-detection efficiency. They tend to find more defects than walk-throughs.
+   	* Pair programming typically costs about the same as inspections and produces similar quality code. Pair programming is especially valuable when schedule reduction is desired. Some developers 
+    	prefer working in pairs to working solo.
+     	* Formal inspections can be used on work products such as requirements, designs, and test cases, as well as on code.
+      	* Walk-throughs and code reading are alternatives to inspections. Code reading offers more flexibility in using each person’s time effectively.
+
+# Chapter 22 - Developer Testing
+
+Key Points 
+
+ 	* Testing by the developer is a key part of a full testing strategy. Independent testing is also important but is outside the scope of this book.
+  	* Writing test cases before the code takes the same amount of time and effort as writing the test cases after the code, but it shortens defect-detection-debug-correction cycles.
+   	* Even considering the numerous kinds of testing available, testing is only one part of a good software-quality program. High-quality development methods, including minimizing defects 
+	 in requirements and design, are at least as important. Collaborative development practices are also at least as effective at detecting errors as testing, and these practices detect different kinds of errors.
+  	* You can generate many test cases deterministically by using basis testing, data-flow analysis, boundary analysis, classes of bad data, and classes of good data. You can generate additional test cases with error guessing. 
+   	* Errors tend to cluster in a few error-prone classes and routines. Find that error-prone code, redesign it, and rewrite it.
+    	* Test data tends to have a higher error density than the code being tested. Because hunting for such errors wastes time without improving the code, test-data errors are more aggravating than programming errors. Avoid them by
+	developing your tests as carefully as your code.
+ 	* Automated testing is useful in general and is essential for regression testing.
+  	* In the long run, the best way to improve your testing process is to make it regular, measure it, and use what you learn to improve it.
+
+# Chapter 23 - Debugging 
+
+Key Points 
+
+ 	* Debugging is a make-or-break aspect of software development. The best approach is to use other techniques described in this book to avoid defects in the first place. It’s still worth your time to improve your debugging skills, how-
+	ever, because the difference between good and poor debugging performance is at least 10 to 1.
+ 	* A systematic approach to finding and fixing errors is critical to success. Focus your debugging so that each test moves you a step forward. Use the Scientific Method of Debugging.
+  	* Understand the root problem before you fix the program. Random guesses about the sources of errors and random corrections will leave the program in worse condition than when you started.
+   	* Set your compiler warning to the pickiest level possible, and fix the errors it reports. It’s hard to fix subtle errors if you ignore the obvious ones.
+    	* Debugging tools are powerful aids to software development. Find them and use them, and remember to use your brain at the same time.
+
+# Chapter 24 - Refactoring
+
+Key Points
+
+ 	* Program changes are a fact of life both during initial development and after initial release.
+  	* Software can either improve or degrade as it’s changed. The Cardinal Rule of Software Evolution is that internal quality should improve with code evolution.
+   	* One key to success in refactoring is learning to pay attention to the numerous warning signs or smells that indicate a need to refactor.
+    	* Another key to refactoring success is learning numerous specific refactorings.
+     	* A final key to success is having a strategy for refactoring safely. Some refactoring approaches are better than others.
+      	* Refactoring during development is the best chance you’ll get to improve your program, to make all the changes you’ll wish you’d made the first time. Take advantage of these opportunities during development!
+
+# Chapter 25 - Code-Tuning Strategies
+
+Key Points 
+
+ 	* Performance is only one aspect of overall software quality, and it’s usually not the most important. Finely tuned code is only one aspect of overall performance, and it’s usually not the
+  	most significant. Program architecture, detailed design, and data-structure and algorithm selection usually have more influence on a program’s execution speed and size than the efficiency of its code does.
+   	* Quantitative measurement is a key to maximizing performance. It’s needed to find the areas in which performance improvements will really count, and it’s needed again to verify that optimizations improve 	rather than degrade the software.
+    	* Most programs spend most of their time in a small fraction of their code. You won’t know which code that is until you measure it.
+     	* Multiple iterations are usually needed to achieve desired performance improvements through code tuning.
+      	* The best way to prepare for performance work during initial coding is to write clean code that’s easy to understand and modify.
+
+# Chapter 26 - Code-Tuning Techniques
+
+Key Points 
+
+	* Results of optimizations vary widely with different languages, compilers, and environments. Without measuring each specific optimization, you’ll have no idea whether it will help or hurt your program.
+ 	* The first optimization is often not the best. Even after you find a good one, keep looking for one that’s better.
+  	* Code tuning is a little like nuclear energy. It’s a controversial, emotional topic. Some people think it’s so detrimental to reliability and maintainability that they won’t do it at all. Others think 
+   	that with proper safeguards, it’s beneficial. If you decide to use the techniques in this chapter, apply them with care.
+    	
+# Chapter 27 - How Program Size Affects Construction
+
+Key Points 
+
+	* As project size increases, communication needs to be supported. The point of most methodologies is to reduce communications problems, and a methodology should live or die on its merits as a communication 
+ facilitator.
+ 	* All other things being equal, productivity will be lower on a large project than on a small one.
+   	* All other things being equal, a large project will have more errors per thousand lines of code than a small one.
+    	* Activities that are taken for granted on small projects must be carefully planned on larger ones. Construction becomes less predominant as project size increases.
+     	* Scaling up a lightweight methodology tends to work better than scaling down a heavyweight methodology. The most effective approach of all is using a “right-weight” methodology.
+
+# Chapter 28 - Managing Construction
+
+ Key Points
+
+ 	* Good coding practices can be achieved either through enforced standards or through more light-handed approaches.
+  	* Configuration management, when properly applied, makes programmers’ jobs easier. This especially includes change control.
+   	* Good software estimation is a significant challenge. Keys to success are using multiple approaches, tightening down your estimates as you work your way into 
+    	the project, and making use of data to create the estimates.
+     	* Measurement is a key to successful construction management. You can find ways to measure any aspect of a project that are better than not measuring it at
+	all. Accurate measurement is a key to accurate scheduling, to quality control, and to improving your development process.
+ 	* Programmers and managers are people, and they work best when treated as such.
+
+# Chapter 29 - Integration
+
+Key Points
+
+	* The construction sequence and integration approach affect the order in which classes are designed, coded, and tested.
+ 	* A well-thought-out integration order reduces testing effort and eases debugging.
+  	* Incremental integration comes in several varieties, and, unless the project is trivial, any one of them is better than phased integration.
+   	* The best integration approach for any specific project is usually a combination of top-down, bottom-up, risk-oriented, and other integration approaches. T-shaped integration and vertical-slice
+   	 integration are two approaches that often work well.
+     	* Daily builds can reduce integration problems, improve developer morale, and provide useful project management information.
+	
+# Chapter 30 - Programming Tools
+
+Key Points 
+
+ 	* Programmers sometimes overlook some of the most powerful tools for years before discovering them.
+  	* Good tools can make your life a lot easier.
+   	* Tools are readily available for editing, analyzing code quality, refactoring, version control, debugging, testing, and code tuning.
+    	* You can make many of the special-purpose tools you need.
+     	* Good tools can reduce the more tedious aspects of software development, but they can’t eliminate the need for programming, although they will continue to
+	reshape what we mean by “programming.”
+
+# Chapter 31 - Layout and Style
+
+Key Points 
+
+ 	* The first priority of visual layout is to illuminate the logical organization of the code. Criteria used to assess whether that priority is achieved include accuracy,
+	consistency, readability, and maintainability.
+ 	* Looking good is secondary to the other criteria—a distant second. If the other criteria are met and the underlying code is good, however, the layout will look fine.
+  	* Visual Basic has pure blocks and the conventional practice in Java is to use pure- block style, so you can use a pure-block layout if you program in those languages. 
+   	In C++, either pure-block emulation or begin-end block boundaries work well.
+    	* Structuring code is important for its own sake. The specific convention you follow is less important than the fact that you follow some convention consistently.
+	A layout convention that’s followed inconsistently can actually hurt readability.
+	* Many aspects of layout are religious issues. Try to separate objective preferencesfrom subjective ones. Use explicit criteria to help ground your discussions about
+style preferences.
+
+ # Chapter 32 - Self-Documenting Code
+
+ Key Points
+
+ 	* The question of whether to comment is a legitimate one. Done poorly, commenting is a waste of time and sometimes harmful. Done well, commenting is worthwhile.
+  	* The source code should contain most of the critical information about the program. As long as the program is running, the source code is more likely than any
+	other resource to be kept current, and it’s useful to have important information bundled with the code.
+ 	* Good code is its own best documentation. If the code is bad enough to require extensive comments, try first to improve the code so that it doesn’t need extensive comments.
+  	* Comments should say things about the code that the code can’t say about itself—at the summary level or the intent level.
+   	* Some commenting styles require a lot of tedious clerical work. Develop a style that’s easy to maintain.
+
+# Chapter 33 - Personal Character
+
+Key Points 
+
+	* Your personal character directly affects your ability to write computer programs.
+ 	* The characteristics that matter most are humility, curiosity, intellectual honesty, creativity and discipline, and enlightened laziness.
+  	* The characteristics of a superior programmer have almost nothing to do with talent and everything to do with a commitment to personal development.
+   	* Surprisingly, raw intelligence, experience, persistence, and guts hurt as much as they help.
+    	* Many programmers don’t actively seek new information and techniques and instead rely on accidental, on-the-job exposure to new information. If you devote a small percentage of your time to 
+     	reading and learning about programming, after a few months or years you’ll dramatically distinguish yourself from the programming mainstream.
+      	* Good character is mainly a matter of having the right habits. To be a great programmer, develop the right habits and the rest will come naturally.
+
+# Chapter 34 - Themes in Software Craftsmanship
+
+Key Points 
+
+ 	* One primary goal of programming is managing complexity.
+  	* The programming process significantly affects the final product.
+   	* Team programming is more an exercise in communicating with people than in communicating with a computer. Individual programming is more an exercise in communicating 
+    	with yourself than with a computer.
+     	* Team programming is more an exercise in communicating with people than in communicating with a computer. Individual programming is more an exercise in communicating with
+      	yourself than with a computer.
+       * Programming in terms of the problem rather than the solution helps to manage complexity.
+       * Paying attention to intellectual warning signs like the “irritation of doubt” is especially important in programming because programming is almost purely a mental activity.
+       * The more you iterate in each development activity, the better the product of that activity will be.
+       * Dogmatic methodologies and high-quality software development don’t mix. Fill your intellectual toolbox with programming alternatives, and improve your skill at choosing the
+       right tool for the job.
+
+# Chapter 35 - Where to Find More Information
+
+Key Points 
+	More reading materials: 
+
+ 	Bass, Len, Paul Clements, and Rick Kazman. Software Architecture in Practice, 2d ed.
+	Boston, MA: Addison-Wesley, 2003.
+
+	Fowler, Martin. Refactoring: Improving the Design of Existing Code. Reading, MA: Addison-Wesley, 1999.
+
+	Gamma, Erich, et al. Design Patterns. Reading, MA: Addison-Wesley, 1995.
+
+ 	Gilb, Tom. Principles of Software Engineering Management. Wokingham, England: Addison-Wesley, 1988.
+
+  	Maguire, Steve. Writing Solid Code. Redmond, WA: Microsoft Press, 1993.
+
+   	Meyer, Bertrand. Object-Oriented Software Construction, 2d ed. New York, NY: Prentice Hall PTR, 1997.
+
+    	“Software Measurement Guidebook,” NASA Goddard Space Flight Center. Available from sel.gsfc.nasa.gov/website/documents/online-doc.htm
+
+     	For more details on this professional development program, as well as for up-to-date reading lists, see our professional development website at 
+      www.construx.com/professionaldev/.
+	
+       
+       
